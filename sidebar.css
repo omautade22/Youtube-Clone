@@ -1,0 +1,40 @@
+.sidebar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    width: 70px;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+
+.sidebar-icon{
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.sidebar-icon p{
+    margin-top: 4px;
+    padding: 0px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 8px;
+    color: black;
+}
+
+.sidebar-icon:hover{
+    background-color: rgb(242, 240, 240);
+}
+
+.sidebar-icon-img{
+    height: 24px;
+    
+}
